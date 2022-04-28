@@ -1,20 +1,47 @@
 .main_section{
-    background-color: yellow;
-    height: 1000px;
+    border: 1px solid $sable;
 
     &_content{
-        border: 2px solid red;
-        height: 450px;
+        box-sizing: border-box;
 
-        .content_html_css{
-            border: 5px solid green;
-            height: 200px;
+        .content{
+            font-family: $ubuntu;
+            font-size: $font-size-large;
+            border: 1px solid rgb(199, 199, 199);
+            margin: 7% 5%;
+            padding: 5% 5%;
 
-        }
 
-        .content_sass{
-            border: 2px solid green;
-            height: 200px;
+            &_img{
+                height: auto;
+                width: 100%;
+            }
+
+            &_title{
+                font-weight: $font-bold;
+            }
+
+            &_paragraph{
+                line-height: 30px;
+                font-weight: $font-regular;
+                text-align: justify;
+            }
+            
+            &_instructor{
+                font-size: $font-size-large;    
+            }
+
+            &_ul {
+                display: flex;
+                padding: 0;
+                margin-bottom: 0;
+            }
+
+            &_ul li{
+                list-style: none;
+                padding: 0 8px;
+                font-size:$font-size-medium;
+            }          
 
         }
 

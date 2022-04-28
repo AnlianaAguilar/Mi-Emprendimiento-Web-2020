@@ -32,20 +32,42 @@
 }
 
 .main_section {
-  background-color: yellow;
-  height: 1000px;
+  border: 1px solid #060606;
 }
 .main_section_content {
-  border: 2px solid red;
-  height: 450px;
+  box-sizing: border-box;
 }
-.main_section_content .content_html_css {
-  border: 5px solid green;
-  height: 200px;
+.main_section_content .content {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 20px;
+  border: 1px solid rgb(199, 199, 199);
+  margin: 7% 5%;
+  padding: 5% 5%;
 }
-.main_section_content .content_sass {
-  border: 2px solid green;
-  height: 200px;
+.main_section_content .content_img {
+  height: auto;
+  width: 100%;
+}
+.main_section_content .content_title {
+  font-weight: 700;
+}
+.main_section_content .content_paragraph {
+  line-height: 30px;
+  font-weight: 400;
+  text-align: justify;
+}
+.main_section_content .content_instructor {
+  font-size: 20px;
+}
+.main_section_content .content_ul {
+  display: flex;
+  padding: 0;
+  margin-bottom: 0;
+}
+.main_section_content .content_ul li {
+  list-style: none;
+  padding: 0 8px;
+  font-size: 16px;
 }
 .main_section_courses {
   border: 2px solid red;
@@ -54,7 +76,6 @@
 
 .footer {
   background-color: black;
-  height: 50px;
 }
 
 .body {

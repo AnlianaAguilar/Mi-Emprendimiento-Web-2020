@@ -1,0 +1,32 @@
+.main_section{
+    background-color: yellow;
+    height: 1000px;
+
+    &_content{
+        border: 2px solid red;
+        height: 450px;
+
+        .content_html_css{
+            border: 5px solid green;
+            height: 200px;
+
+        }
+
+        .content_sass{
+            border: 2px solid green;
+            height: 200px;
+
+        }
+
+    }
+
+    &_courses{
+        border: 2px solid red;
+        height: 450px;
+    }
+
+
+    
+
+
+}

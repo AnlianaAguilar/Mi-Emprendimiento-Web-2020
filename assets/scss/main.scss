@@ -1,13 +1,22 @@
 //abstracts
+@import "abstracts/variables";
+@import "abstracts/mixins";
 
 //vendor
 
 //base
 
 //layout
+@import "layout/navbar";
+@import "layout/header";
+@import "layout/main_section";
+@import "layout/footer";
 
 //components
+@import "components/button";
+@import "components/input";
 
 //pages
+@import "pages/index";
 
 //themes

@@ -1,0 +1,52 @@
+.nav{
+    background-color: $black;
+    color: $white;
+    display: flex;
+    box-sizing: border-box;
+    font-family: $poppins;
+    font-size: $font-size-medium;
+    justify-content: space-between;
+    padding: 0 20px;
+
+
+    &_logo img{
+        text-align: center;
+        height: 35px;
+        width: 35px;
+        padding-top: 10px;
+    }
+
+    &_bars{
+        font-size: 30px;
+        padding-top: 5px;
+
+        // @include respond-to($bp-lg){
+        //     display: none; 
+        // }
+
+
+
+    }
+
+    &_ul{
+        display: flex;
+        display: none;
+ 
+        // @include respond-to($bp-lg){
+        //     display: initial;
+        // }
+
+
+    }
+
+    li{
+        list-style: none; 
+        padding: 0 10px;        
+
+        // @include respond-to($bp-lg){
+ 
+        // }
+
+    }
+
+}

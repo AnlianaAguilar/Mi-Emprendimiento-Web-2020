@@ -1,3 +1,65 @@
+.nav {
+  background-color: #000000;
+  color: #ffffff;
+  display: flex;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.nav_logo img {
+  text-align: center;
+  height: 35px;
+  width: 35px;
+  padding-top: 10px;
+}
+.nav_bars {
+  font-size: 30px;
+  padding-top: 5px;
+}
+.nav_ul {
+  display: flex;
+  display: none;
+}
+.nav li {
+  list-style: none;
+  padding: 0 10px;
+}
 
+.header {
+  background-color: green;
+  height: 100px;
+}
+
+.main_section {
+  background-color: yellow;
+  height: 1000px;
+}
+.main_section_content {
+  border: 2px solid red;
+  height: 450px;
+}
+.main_section_content .content_html_css {
+  border: 5px solid green;
+  height: 200px;
+}
+.main_section_content .content_sass {
+  border: 2px solid green;
+  height: 200px;
+}
+.main_section_courses {
+  border: 2px solid red;
+  height: 450px;
+}
+
+.footer {
+  background-color: black;
+  height: 50px;
+}
+
+.body {
+  margin: 0;
+}
 
 /*# sourceMappingURL=style.css.map */

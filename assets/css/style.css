@@ -27,9 +27,8 @@
   padding: 0 10px;
 }
 
-.header {
-  background-color: green;
-  height: 100px;
+.header img {
+  height: 100%;
 }
 
 .main_section {

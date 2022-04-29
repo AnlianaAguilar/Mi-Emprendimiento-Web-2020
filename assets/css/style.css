@@ -14,13 +14,30 @@
   width: 35px;
   padding-top: 10px;
 }
+@media (min-width: 992px) {
+  .nav_logo img {
+    height: 44px;
+    width: 44px;
+  }
+}
 .nav_bars {
   font-size: 30px;
   padding-top: 5px;
 }
+@media (min-width: 992px) {
+  .nav_bars {
+    display: none;
+  }
+}
 .nav_ul {
-  display: flex;
+  display: flex !important;
   display: none;
+}
+@media (min-width: 992px) {
+  .nav_ul {
+    display: initial;
+    font-weight: 700;
+  }
 }
 .nav li {
   list-style: none;

@@ -1,8 +1,8 @@
 .main_section{
-    border: 1px solid $sable;
+    box-sizing: border-box;
 
     &_content{
-        box-sizing: border-box;
+        border: 1px solid $sable;
 
         .content{
             font-family: $ubuntu;
@@ -48,12 +48,82 @@
     }
 
     &_courses{
-        border: 2px solid red;
-        height: 450px;
+        border: 1px solid $sable;
+        box-sizing: border-box;
+        margin-top: 5%;
+
+        .courses{
+            padding: 5% 5%;
+
+            &_img {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 5% 0;
+            }
+
+            &_img img{                
+                border: 1px solid $charcoal;
+                border-radius: 50%;
+                height: 60%;
+                width: 60%;
+            }
+
+            &_title{
+                font-family: $ubuntu;
+                font-size: $font-size-large;
+                text-align: center;       
+
+            }
+
+            &_ul{
+                display: flex;
+                justify-content: center;
+                padding: 0;
+            }
+
+            &_ul li{
+                list-style: none;
+                font-family: $ubuntu;
+                font-size: $font-size-large;
+                padding-left: 3%;
+            }
+
+            &_paragraph{
+                font-family: $ubuntu;
+                font-size: $font-size-large;
+                text-align: justify;
+                line-height: 30px;
+
+            }
+
+            &_title_2{
+                font-family: $poppins;
+                background-color: rgb(102, 101, 101);
+                color: $white;
+                text-align: center;
+                font-size: $font-size-large;
+            }
+
+            &_ul_2 li{
+                font-family: $poppins;
+
+            }
+            &_ul_2 a{
+                text-decoration: none;
+                font-size: $font-size-medium;
+
+            }
+
+
+
+        }
+
     }
 
+}
 
-    
-
-
+.svg{
+    margin: 7% 7%;
+    padding-top: 3%;
 }

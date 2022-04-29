@@ -1,4 +1,29 @@
 .footer{
+    margin-top: 10pz;
     background-color: black;
-    // height: 50px;
+    height: 300px;
+    color: $white;
+    font-family: $poppins;
+    text-align: center;
+    padding: 10% 20% ;
+    font-size: $font-size-medium;
+    font-weight: $font-regular;
+
+    &_input{
+        height: 30px;
+        font-family: $poppins;
+        font-size: $font-size-medium;
+        border-radius: 7px;
+
+    } 
+    &_button{
+        margin-top: 5px;
+        background-color: $tangerine;
+        border-radius: 7px;
+        height: 35px;
+        font-size: $font-size-medium;
+        font-family: $poppins;
+        color:$sable ;
+    }
+    
 }

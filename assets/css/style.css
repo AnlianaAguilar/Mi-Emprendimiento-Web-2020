@@ -73,6 +73,7 @@
   border: 1px solid #060606;
   box-sizing: border-box;
   margin-top: 5%;
+  margin-bottom: 5%;
 }
 .main_section_courses .courses {
   padding: 5% 5%;
@@ -132,7 +133,30 @@
 }
 
 .footer {
+  margin-top: 10pz;
   background-color: black;
+  height: 300px;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  padding: 10% 20%;
+  font-size: 16px;
+  font-weight: 400;
+}
+.footer_input {
+  height: 30px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  border-radius: 7px;
+}
+.footer_button {
+  margin-top: 5px;
+  background-color: #FFAF6D;
+  border-radius: 7px;
+  height: 35px;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  color: #060606;
 }
 
 .body {
